@@ -27,13 +27,13 @@ So the plan is to ship the easy surface first to get adoption, and build the bro
 
 ## Roadmap at a glance
 
-| Stage | Promise | Exit criteria |
+| Stage | Promise | Proof it worked |
 |---|---|---|
-| 0 | It deploys, it's private, and it can't bankrupt you | 10 paying cards |
+| 0 | It deploys, it's private, and it can't bankrupt you | 25 apps from strangers, 10 paying cards, 3+ apps with a spend ceiling set |
 | 1 | The Lead can see and stop it | First $250/mo org tier sold |
-| 2 | It can touch our data (the moat) | Brokered Postgres with scopes and audit |
-| 3 | It's how our company builds | Multi-connector, SSO, non-human principals |
-| 4 | Nobody can rip us out | VPC/self-hosted, after SOC 2 |
+| 2 | It can touch our data (the moat) | 3 orgs with Postgres connected, one through a security review |
+| 3 | It's how our company builds | Agent-triggered apps with their own identity, per-action approval, MCP discovery |
+| 4 | Nobody can rip us out | Scope recommendations, warehouse connectors, self-hosted/VPC |
 
 ## Status
 
